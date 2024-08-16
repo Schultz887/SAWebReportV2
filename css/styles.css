@@ -159,6 +159,7 @@ li::marker {
   transition: var(--transition);
 }
 
+
 /* home background: #e2e2e2*/ 
 .home {
   position: relative;

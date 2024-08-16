@@ -7,44 +7,43 @@
       <link rel="stylesheet" href="css/styles.css" />
       <link rel="stylesheet" href="css/geotable.css" />
       <script src="js/functions.js"></script>	
-      <title>Situational Awareness Report </title>
+      <title>Weekly Situational Awareness Report </title>
    </head>
    <body>
       <section class="sidebar">
          <div class="nav-header"> </div>
          <div class="theme-wrapper"> </div>
       </section>
-      <section class="header">
-         <table>
-            <tr>
-               <td valign="top"><img style="border:0;outline:none;box-shadow:none" src="images/cropped-Reliability-First-Logo-2023-1-800x192-1-300x72-1.png" height: 25% width: 25%>
-               </td>
-            </tr>
-            <tr>
-               <td valign="bottom">
-                  <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SA Weekly Status Report\Bi-Weekly 
-					<p style="font-weight: 500;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="datetime-display"></span></p>
-					
-                  </h1>
-               </td>
-            </tr>
-            <tr>
-            <td>
-               <div class="print-instructions">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  The layout of this page is optimized for printing as PDF. <br> 
-                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  For the best expierince, please wait for the images to load and then print to PDF.
-
-                </div>
-               </td>
-            </tr>
-         </table>
-         <p>
-         </p>
-         <br>
-         <br>
-      </section>
+      <div class="header">
+    <table>
+       <tr>
+          <td valign="top"><img style="border:0;outline:none;box-shadow:none" src="images/cropped-Reliability-First-Logo-2023-1-800x192-1-300x72-1.png" height: 25% width: 25%>
+          </td>
+       </tr>
+       <tr>
+          <td valign="bottom">
+             <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Weekly Situational Awareness Report
+			<p style="font-weight: 500;">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="datetime-display"></span></p>
+			
+             </h2>
+          </td>
+       </tr>
+       <tr>
+       <td>
+          <div class="print-instructions">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             The layout of this page is optimized for printing as PDF. <br> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             For the best expierince, please wait for the images to load and then print to PDF.
+           
+           </div>
+          </td>
+       </tr>
+    </table>
+  <br><br>
+ </div>
+        
+      
       <section class="subheading">Weather Data</section>
       <section class="home">
          <div style="width: 70%;">
@@ -72,93 +71,93 @@
       </section>
       <section class="settable">
          <h4>Geomagnetic Storms</h4>
-         <div class="tg-wrap">
-         <table class="tg">
-            <thead>
-               <colgroup>
-                  <col width="5%">
-                  <col width="7%">
-                  <col width="65%">
-                  <col width="10%">
-                  <col width="12%">
-               </colgroup>
-               <tr>
-                  <th class="tg-ccau">Scale</th>
-                  <th class="tg-ccau">Description</th>
-                  <th class="tg-ccau">Effect</th>
-                  <th class="tg-ccau">Physical measure</th>
-                  <th class="tg-ccau">Average Frequency<br />	(1 cycle = 11 years)</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td class="tg-3n0h">G 5</td>
-                  <td class="tg-0lax">Extreme</td>
-                  <td class="tg-0lax"><b>Power systems:</b> Widespread voltage control problems and protective system problems can occur, some grid systems may experience complete collapse or blackouts. Transformers may experience damage.<br>
-                     <b>Other systems:</b> Pipeline currents can reach hundreds of amps, HF (high frequency) radio propagation may be impossible in many areas for one to two days, satellite navigation may be degraded for days, low-frequency radio navigation can be out for hours, and aurora has been seen as low as Florida and southern Texas (typically 40&deg; geomagnetic lat.).
-                  </td>
-                  <td class="tg-0lax">Kp = 9</td>
-                  <td class="tg-0lax">4 per cycle<br> (4 days per cycle)</td>
-               </tr>
-               <tr>
-                  <td class="tg-f1jo">G 4</td>
-                  <td class="tg-0lax">Severe</td>
-                  <td><b>Power systems:</b> Possible  widespread voltage control problems and some protective systems will mistakenly trip out key assets from the grid.<br>
-                     <b>Other systems:</b> Induced pipeline currents affect preventive measures, HF radio propagation sporadic, satellite navigation degraded for hours, low-frequency radio navigation disrupted, and aurora has been seen as low as Alabama and northern California (typically 45&deg; geomagnetic lat.).
-                  </td>
-                  <td>Kp = 8, including a 9-</td>
-                  <td>100 per cycle<br> (60 days per cycle)</td>
-               </tr>
-               <tr>
-                  <td class="tg-b45z">G 3</td>
-                  <td class="tg-0lax">Strong</td>
-                  <td><b>Power systems:</b> Voltage corrections may be required, false alarms triggered on some protection devices.<br>
-                     <b>Other systems:</b> Intermittent satellite navigation and low-frequency radio navigation problems may occur, HF radio may be intermittent, and aurora has been seen as low as Illinois and Oregon (typically 50&deg; geomagnetic lat.).
-                  </td>
-                  <td>Kp = 7</td>
-                  <td>200 per cycle<br> (130 days per cycle)</td>
-               </tr>
-               <tr>
-                  <td class="tg-azi9">G 2</td>
-                  <td class="tg-0lax">Moderate></td>
-                  <td><b>Power systems: </b>High-latitude power systems may experience voltage alarms, long-duration storms may cause transformer damage.<br>
-                     <b>Other systems: </b>HF radio propagation can fade at higher latitudes, and aurora has been seen as low as New York and Idaho (typically 55&deg; geomagnetic lat.).
-                  </td>
-                  <td>Kp = 6</td>
-                  <td>600 per cycle<br> (360 days per cycle)</td>
-               </tr>
-               <tr>
-                  <td  class="tg-qlhg">G 1</td>
-                  <td class="tg-0lax">Minor</td>
-                  <td><b>Power systems:</b> Weak power grid fluctuations can occur.<br>
-                     <b>Other systems: </b> Migratory animals are affected at this and higher levels; aurora is commonly visible at high latitudes (northern Michigan and Maine).
-                  </td>
-                  <td>Kp = 5</td>
-                  <td>1700 per cycle<br> (900 days per cycle)</td>
-               </tr>
-            </tbody>
-         </table>
-         <p><br></p>
-         <table class= "TableKP">
-            <colgroup>
-               <col width="15%">
-               <col width="16%">
-               <col width="16%">
-               <col width="16%">
-               <col width="20%">
-               <col width="19%">
-            </colgroup>
-            <tr>
-               <td bgcolor="#92d050">Kp < 5</td>
-               <td bgcolor="f6eb14">Kp = 5 (G1)</td>
-               <td bgcolor="ffc800" >Kp = 6 (G2)</td>
-               <td bgcolor="ff9600">Kp = 7 (G3)</td>
-               <td bgcolor="ff0000">Kp = 8, 9- (G4)</td>
-               <td bgcolor="c80000">Kp = 9o (G5)</td>
-            </tr>
-         </table>
-         <!--	<caption><a href="https://www.swpc.noaa.gov/communities/electric-power-community-dashboard" target="_blank">NOAA Community Dashboard</a></caption>-->
-      </section>
+            <div class="tg-wrap">
+                 <table class="tg">
+                    <thead>
+                       <colgroup>
+                          <col width="5%">
+                          <col width="7%">
+                          <col width="65%">
+                          <col width="10%">
+                          <col width="12%">
+                       </colgroup>
+                       <tr>
+                          <th class="tg-ccau">Scale</th>
+                          <th class="tg-ccau">Description</th>
+                          <th class="tg-ccau">Effect</th>
+                          <th class="tg-ccau">Physical measure</th>
+                          <th class="tg-ccau">Average Frequency<br />	(1 cycle = 11 years)</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                          <td class="tg-3n0h">G 5</td>
+                          <td class="tg-0lax">Extreme</td>
+                          <td class="tg-0lax"><b>Power systems:</b> Widespread voltage control problems and protective system problems can occur, some grid systems may experience complete collapse or blackouts. Transformers may experience damage.<br>
+                             <b>Other systems:</b> Pipeline currents can reach hundreds of amps, HF (high frequency) radio propagation may be impossible in many areas for one to two days, satellite navigation may be degraded for days, low-frequency radio navigation can be out for hours, and aurora has been seen as low as Florida and southern Texas (typically 40&deg; geomagnetic lat.).
+                          </td>
+                          <td class="tg-0lax">Kp = 9</td>
+                          <td class="tg-0lax">4 per cycle<br> (4 days per cycle)</td>
+                       </tr>
+                       <tr>
+                          <td class="tg-f1jo">G 4</td>
+                          <td class="tg-0lax">Severe</td>
+                          <td><b>Power systems:</b> Possible  widespread voltage control problems and some protective systems will mistakenly trip out key assets from the grid.<br>
+                             <b>Other systems:</b> Induced pipeline currents affect preventive measures, HF radio propagation sporadic, satellite navigation degraded for hours, low-frequency radio navigation disrupted, and aurora has been seen as low as Alabama and northern California (typically 45&deg; geomagnetic lat.).
+                          </td>
+                          <td>Kp = 8, including a 9-</td>
+                          <td>100 per cycle<br> (60 days per cycle)</td>
+                       </tr>
+                       <tr>
+                          <td class="tg-b45z">G 3</td>
+                          <td class="tg-0lax">Strong</td>
+                          <td><b>Power systems:</b> Voltage corrections may be required, false alarms triggered on some protection devices.<br>
+                             <b>Other systems:</b> Intermittent satellite navigation and low-frequency radio navigation problems may occur, HF radio may be intermittent, and aurora has been seen as low as Illinois and Oregon (typically 50&deg; geomagnetic lat.).
+                          </td>
+                          <td>Kp = 7</td>
+                          <td>200 per cycle<br> (130 days per cycle)</td>
+                       </tr>
+                       <tr>
+                          <td class="tg-azi9">G 2</td>
+                          <td class="tg-0lax">Moderate</td>
+                          <td><b>Power systems: </b>High-latitude power systems may experience voltage alarms, long-duration storms may cause transformer damage.<br>
+                             <b>Other systems: </b>HF radio propagation can fade at higher latitudes, and aurora has been seen as low as New York and Idaho (typically 55&deg; geomagnetic lat.).
+                          </td>
+                          <td>Kp = 6</td>
+                          <td>600 per cycle<br> (360 days per cycle)</td>
+                       </tr>
+                       <tr>
+                          <td  class="tg-qlhg">G 1</td>
+                          <td class="tg-0lax">Minor</td>
+                          <td><b>Power systems:</b> Weak power grid fluctuations can occur.<br>
+                             <b>Other systems: </b> Migratory animals are affected at this and higher levels; aurora is commonly visible at high latitudes (northern Michigan and Maine).
+                          </td>
+                          <td>Kp = 5</td>
+                          <td>1700 per cycle<br> (900 days per cycle)</td>
+                       </tr>
+                    </tbody>
+                 </table>
+                 <p><br></p>
+                 <table class= "TableKP">
+                    <colgroup>
+                       <col width="15%">
+                       <col width="16%">
+                       <col width="16%">
+                       <col width="16%">
+                       <col width="20%">
+                       <col width="19%">
+                    </colgroup>
+                    <tr>
+                       <td bgcolor="#92d050">Kp < 5</td>
+                       <td bgcolor="f6eb14">Kp = 5 (G1)</td>
+                       <td bgcolor="ffc800" >Kp = 6 (G2)</td>
+                       <td bgcolor="ff9600">Kp = 7 (G3)</td>
+                       <td bgcolor="ff0000">Kp = 8, 9- (G4)</td>
+                       <td bgcolor="c80000">Kp = 9o (G5)</td>
+                    </tr>
+                 </table>
+      </div>
+       </section>
       <div class="pagebreak"> </div>
         <section class="subheading">MISO</section>
       <div class ="square1" >
@@ -198,6 +197,13 @@
             </div>
      </div>
       <div class="pagebreak"> </div>
+      <section class="subheading">Security Awareness</section>
+      <section class="home">
+      <div style="width: 90%;">
+     <p>
+     </p>
+ 
+     <div class="pagebreak"> </div>
       <section class="subheading">References</section>
       <section class="home">
       <div style="width: 90%;">
@@ -225,6 +231,8 @@
             https://www.pjm.com/markets-and-operations</a>	
          </li>
       </ul>
+      </section>
+
       <script> displayDateTimeLong();</script>
       <script> fetchOutlookData();</script>
    </body>
