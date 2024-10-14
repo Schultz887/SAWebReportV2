@@ -244,6 +244,11 @@ font-weight: 600;
      height: 90%;
      border: none;
 }
+
+.news a {
+    color: #8000ff;
+  }
+
 .print-instructions {
   background-color: #fff;
   padding: 6px;

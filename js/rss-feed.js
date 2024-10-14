@@ -11,7 +11,7 @@ async function loadRssFeed() {
         // Check if the RSS feed is valid and contains items
         if (data.items && data.items.length > 0) {
             // Display the latest 5 items
-            for (let i = 0; i < Math.min(5, data.items.length); i++) {
+            for (let i = 0; i < Math.min(4, data.items.length); i++) {
                 const item = data.items[i];
                 const title = item.title;
                 const link = item.link;
@@ -21,8 +21,8 @@ async function loadRssFeed() {
                 const feedItem = document.createElement('div');
                 feedItem.className = 'feed-item';
                 feedItem.innerHTML = `
-                    <h3><a href="${link}" target="_blank">${title}</a></h3>
-                    <p>${description}</p>
+                    <h4><a href="${link}" target="_blank">${title}</a></h4>
+                  ${description}  <br><br>
                 `;
                 feedContainer.appendChild(feedItem);
             }
